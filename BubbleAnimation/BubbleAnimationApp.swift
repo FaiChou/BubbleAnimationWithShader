@@ -11,7 +11,8 @@ import SwiftUI
 struct BubbleAnimationApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            BubbleView()
+                .ignoresSafeArea()
         }
     }
 }
